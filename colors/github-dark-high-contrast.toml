@@ -1,13 +1,13 @@
 [colors]
 ansi = [
-    "#7a828e",
-    "#ff9492",
-    "#26cd4d",
-    "#f0b72f",
-    "#2792ff",
-    "#cb9eff",
-    "#39c5cf",
-    "#d9dee3",
+    "#7a828e", # Black
+    "#ff9492", # Red
+    "#26cd4d", # Green
+    "#f0b72f", # Yellow
+    "#2792ff", # Blue, darker and more visible than 0x71b7ff
+    "#cb9eff", # Magenta
+    "#39c5cf", # Cyan
+    "#d9dee3", # White
 ]
 brights = [
     "#9ea7b3",
