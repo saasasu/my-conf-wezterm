@@ -22,14 +22,15 @@ brights = [
 
 # background = "#0a0c10"
 background = "#000000" # Real black
-foreground = "#f0f3f6"
+# foreground = "#f0f3f6"
+foreground = "#f1f1f1"
 
-cursor_bg = "#f0f3f6"
-cursor_border = "#f0f3f6"
-cursor_fg = "#0a0c10"
+cursor_bg = "#f1f1f1"
+cursor_border = "#f1f1f1"
+cursor_fg = "#303030"
 
-selection_bg = "#f0f3f6"
-selection_fg = "#0a0c10"
+selection_bg = "#f1f1f1"
+selection_fg = "#303030"
 
 [colors.indexed]
 
