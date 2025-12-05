@@ -17,6 +17,7 @@ config.font_size = 14
 config.color_scheme = "github-dark-high-contrast"
 
 config.enable_tab_bar = false
+config.adjust_window_size_when_changing_font_size = false
 
 config.font = wezterm.font("Hasklug Nerd Font")
 
