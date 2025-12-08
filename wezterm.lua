@@ -8,6 +8,10 @@ local config = wezterm.config_builder()
 
 local mux = wezterm.mux
 
+if wezterm.target_triple == "x86_64-pc-windows-msvc" then
+	config.default_prog = { "wsl", "~" }
+end
+
 -- For example, changing the initial geometry for new windows:
 -- config.initial_cols = 120
 -- config.initial_rows = 28
