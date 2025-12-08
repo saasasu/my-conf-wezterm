@@ -1,0 +1,6 @@
+# Ignore everything on the top level
+/*
+
+# except
+!.gitignore
+!wezterm.lua
