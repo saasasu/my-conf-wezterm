@@ -7,6 +7,7 @@ local config = wezterm.config_builder()
 -- This is where you actually apply your config choices.
 
 local mux = wezterm.mux
+local act = wezterm.action
 
 if wezterm.target_triple == "x86_64-pc-windows-msvc" then
 	config.default_prog = { "wsl", "~" }
@@ -29,6 +30,24 @@ wezterm.on("gui-startup", function()
 	local tab, pane, window = mux.spawn_window({})
 	window:gui_window():maximize()
 end)
+
+config.mouse_bindings = {
+	{
+		event = { Up = { streak = 1, button = "Left" } },
+		mods = "NONE",
+		action = act.Nop,
+	},
+	{
+		event = { Down = { streak = 1, button = { WheelUp = 1 } } },
+		mods = "NONE",
+		action = act.Nop,
+	},
+	{
+		event = { Down = { streak = 1, button = { WheelDown = 1 } } },
+		mods = "NONE",
+		action = act.Nop,
+	},
+}
 
 -- Finally, return the configuration to wezterm:
 return config
