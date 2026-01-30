@@ -37,16 +37,6 @@ config.mouse_bindings = {
 		mods = "NONE",
 		action = act.Nop,
 	},
-	{
-		event = { Down = { streak = 1, button = { WheelUp = 1 } } },
-		mods = "NONE",
-		action = act.Nop,
-	},
-	{
-		event = { Down = { streak = 1, button = { WheelDown = 1 } } },
-		mods = "NONE",
-		action = act.Nop,
-	},
 }
 
 -- Finally, return the configuration to wezterm:
