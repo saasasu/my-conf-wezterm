@@ -4,7 +4,7 @@ ansi = [
     "#ff9492", # Red
     "#26cd4d", # Green
     "#f0b72f", # Yellow
-    "#2792ff", # Blue, darker and more visible than 0x71b7ff
+    "#006ddd", # Blue, darker and more visible than 0x71b7ff
     "#cb9eff", # Magenta
     "#39c5cf", # Cyan
     "#d9dee3", # White
