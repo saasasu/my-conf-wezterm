@@ -26,6 +26,13 @@ config.adjust_window_size_when_changing_font_size = false
 
 config.font = wezterm.font("Hasklug Nerd Font")
 
+config.window_padding = {
+	left = "2cell",
+	right = "2cell",
+	top = "1cell",
+	bottom = "1cell",
+}
+
 wezterm.on("gui-startup", function()
 	local tab, pane, window = mux.spawn_window({})
 	window:gui_window():maximize()
