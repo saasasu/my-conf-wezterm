@@ -19,7 +19,7 @@ end
 
 -- or, changing the font size and color scheme.
 config.font_size = 14
-config.color_scheme = "github-dark-high-contrast"
+config.color_scheme = "Modus Vivendi (Gogh)"
 
 config.enable_tab_bar = false
 config.adjust_window_size_when_changing_font_size = false
