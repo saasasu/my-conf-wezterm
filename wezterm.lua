@@ -46,5 +46,15 @@ config.mouse_bindings = {
 	},
 }
 
+config.keys = {
+	-- Turn off the default CTRL-= Zoom In action
+	-- CRTL-+ does the same action by default
+	{
+		key = "=",
+		mods = "CTRL",
+		action = wezterm.action.DisableDefaultAssignment,
+	},
+}
+
 -- Finally, return the configuration to wezterm:
 return config
