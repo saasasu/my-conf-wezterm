@@ -38,13 +38,18 @@ wezterm.on("gui-startup", function()
 	window:gui_window():maximize()
 end)
 
+-- Disable selected mouse bindings
+
 config.mouse_bindings = {
 	{
 		event = { Up = { streak = 1, button = "Left" } },
 		mods = "NONE",
-		action = act.Nop,
+		action = act.Nop, -- Disable default copy to clipboard
 	},
 }
+
+-- If needed to disable everything
+-- config.disable_default_mouse_bindings = true
 
 config.keys = {
 	-- Turn off the default CTRL-= Zoom In action
