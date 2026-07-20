@@ -61,5 +61,8 @@ config.keys = {
 	},
 }
 
+-- Disable bell sound
+config.audible_bell = "Disabled"
+
 -- Finally, return the configuration to wezterm:
 return config
