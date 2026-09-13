@@ -13,6 +13,10 @@ if wezterm.target_triple == "x86_64-pc-windows-msvc" then
 	config.default_prog = { "wsl", "~" }
 end
 
+wezterm.on('format-window-title', function(tab, pane, tabs, panes, config)
+  return "Hello, world"
+end)
+
 -- For example, changing the initial geometry for new windows:
 -- config.initial_cols = 120
 -- config.initial_rows = 28
